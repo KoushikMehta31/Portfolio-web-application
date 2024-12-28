@@ -13,14 +13,14 @@ const Degree = () => {
           <strong className="highlight">Edu-versity</strong>. 
            Internship.
           <br />
-          ( May 2024 - Jun 2024 )
+          (May 2024 - Jun 2024)
         </p>
         <p className="card-subcontent">Full Stack Web Development</p>
         <p className="card-content">
           <strong className="highlight">Sigma E Solutions</strong>. 
            Internship.
           <br />
-          ( Jun 2022 - Jul 2022 )
+          (Jun 2022 - Jul 2022)
         </p>
         <p className="card-subcontent">Frontend Development</p>
       </div>
@@ -32,17 +32,17 @@ const Degree = () => {
           <strong className="highlight">B.Tech</strong>. 
           " Bachelors Degree."
           <br />
-          ( Computer Science Engineering )
+          (Computer Science Engineering)
           <br />
-          ( Birla Institute Of Technology - Mesra )
+          (Birla Institute Of Technology - Mesra)
         </p>
         <p className="card-content">
           <strong className="highlight">Diploma</strong>. 
            " Diplome Degree."
           <br />
-          ( Computer Science Engineering )
+          (Computer Science Engineering)
           <br />
-          ( Al-Kabir Polytechnic )
+          (Al-Kabir Polytechnic)
         </p>
       </div>
     </div>
