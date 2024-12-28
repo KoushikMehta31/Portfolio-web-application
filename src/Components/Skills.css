@@ -1,0 +1,98 @@
+
+.skills-section {
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.skills-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.skills-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  padding: 20px;
+  width: 120px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.html-icon {
+  color: rgb(227, 76, 38);
+}
+
+.css-icon {
+  color: rgb(21, 114, 182);
+}
+
+.js-icon {
+  color: rgb(247, 223, 30);
+}
+.bootstrap-icon {
+  color: rgb(215, 31, 188);
+}
+
+.tailwindcss-icon {
+  color: rgb(14, 236, 244);
+}
+
+.react-icon {
+  color: rgb(97, 218, 251);
+}
+
+.node-icon {
+  color: rgb(41, 222, 25);
+}
+.expressjs-icon {
+  color: rgb(46, 223, 19);
+}
+.mongodb-icon {
+  color: rgb(38, 229, 9);
+}
+.Mysql-icon {
+  color: #eabc15;
+}
+.Java-icon {
+  color: #de4b22;
+}
+.python-icon {
+  color: rgb(65, 185, 175);
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 100%;
+    max-width: 200px;
+  }
+}

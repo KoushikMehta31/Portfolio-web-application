@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a0a0a;
+  color: #f9f6f6;
+
+
+}
+
+.title{
+   margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  color: rgba(218, 212, 203, 0.87);
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.04);
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgba(10, 240, 10, 0.785);
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #147be989;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #067eff;
+}
+
+.coming_soon{
+  color: red;
+  font-size: 27px;
+}

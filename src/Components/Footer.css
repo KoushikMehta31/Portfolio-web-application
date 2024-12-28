@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0d021f; 
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  
+  margin-top: 0px;
+}
+
+.code-icon {
+  color: #a3a3ff; 
+  margin: 0 5px; 
+}
