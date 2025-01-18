@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <img src="/Images/Logo.jpg" className="img-logo" alt="Website Logo" />
+        <Link to="/"> <img src="/Images/Logo.jpg" className="img-logo" alt="Website Logo" /></Link>
         </div>
 
         <div className={`nav-links-container ${isMobile ? 'active' : ''}`}>
@@ -31,6 +31,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/skills" onClick={closeMenu}>Skills</Link>
+            </li>
+            <li>
+              <Link to="/certifications" onClick={closeMenu}>Certifications</Link>
             </li>
             <li>
               <Link to="/myproject" onClick={closeMenu}>My Projects</Link>
