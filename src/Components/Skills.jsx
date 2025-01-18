@@ -4,9 +4,12 @@ import "./Skills.css";
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaBootstrap, FaJava, FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiExpress, SiMysql } from "react-icons/si";
+import Footer from "./Footer";
+
 
 const Skills = () => {
   return (
+    <>
     <div className="skills-section">
       <h1 className="skills-title">Skills</h1>
       <p className="skills-subtitle">Technologies I use</p>
@@ -59,8 +62,14 @@ const Skills = () => {
           <FaPython className="skill-icon python-icon" />
           <p>Python</p>
         </div>
+        
       </div>
+      <Footer/>
     </div>
+    
+   
+    
+    </>
   );
 };
 
