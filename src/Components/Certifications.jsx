@@ -7,13 +7,13 @@ const Certifications = () => {
   const certificates = [
     {
       image: "Images/WebDevApnaCollege.jpg", 
-      title: "Data Structures & Algorithms Master",
+      title: "Full Stack Web Development",
       platform: "Apna College",
       date: "Jan 2025",
     },
     {
       image: "Images/LeetCode.jpg", 
-      title: "Top LeetCode Interview Questions",
+      title: "Solving LeetCode's Top Interview Questions",
       platform: "Udemy",
       date: "Dec 2023",
     },
