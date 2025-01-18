@@ -6,13 +6,18 @@ body {
 
 .app {
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
   background-color: #0a0a0a;
   color: #f9f6f6;
-
-
 }
-
+.app h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #1eff00;
+  margin: 8px auto;
+}
 .title{
    margin-bottom: 20px;
   font-size: 2rem;
@@ -24,7 +29,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .project-card {
