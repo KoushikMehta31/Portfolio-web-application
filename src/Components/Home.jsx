@@ -55,9 +55,9 @@ const Home = () =>{
     <p> Additionally, I have explored Knowledge <strong>DevOps</strong>, including <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>CI/CD pipelines.</strong>
     </p>
     </div>
-
-    </center>
     <Footer/>
+    </center>
+  
     </>
   );
 };
