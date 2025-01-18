@@ -1,19 +1,21 @@
 
 import React from "react";
 import "./MyProject.css";
+import Footer from "./Footer";
+
 
 const projects = [
   {
     title: "Portfolio Web Application",
     description: " A responsive portfolio web application created with Reactjs and CSS.",
-    image: "Images/portfolio.png",
-    github: "https://github.com/KoushikMehta31/Portfolio-web-application",
+    image: "Images/portfolio.png", 
+    github: "https://github.com/KoushikMehta31/Portfolio",
     linkedin: "#",
-    Live: "https://portfolio-web-application-ruddy.vercel.app/",
+    Live: "https://portfolio-kzzr.vercel.app/",
   },
   {
     title: "E-Shopper",
-    description: <span className="coming_soon">Coming soon.</span>,
+    description: <span className="coming_soon">Coming soom.</span>,
     image: "Images/coming_soon.jpg",
     github: "#",
     linkedin: "#",
@@ -21,7 +23,7 @@ const projects = [
   },
   {
     title: "",
-    description: <span className="coming_soon">Coming soon.</span>,
+    description: <span className="coming_soon">Coming soom.</span>,
     image: "Images/coming_soon.jpg",
     github: "#",
     linkedin: "#",
@@ -49,6 +51,7 @@ const MyProject = () => {
           </div>
         ))}
       </div>
+     <Footer/>
     </div>
   );
 };
