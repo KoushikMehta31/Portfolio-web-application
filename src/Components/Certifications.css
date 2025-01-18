@@ -1,0 +1,87 @@
+
+.certifications-container {
+  padding-top: 20px;
+  
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.certifications-container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certifications-container h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ffcc00;
+  margin: 8px auto;
+}
+
+.certifications-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.certificate-card {
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-details {
+  padding: 15px;
+}
+
+.certificate-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.platform {
+  font-size: 1rem;
+  color: #b3b3b3;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #ffcc00;
+}
+
+.calendar-icon {
+  margin-right: 5px;
+}
+
+
+@media (min-width: 600px) {
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .certifications-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
