@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Contact.css';
+
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -38,8 +40,13 @@ const Contact = () => {
         <div className="thank-you-message">
           <h1>Thank You!</h1>
           <p>Your message has been sent successfully. I will get back to you soon!</p>
+          <div>
+          
+            <button className='home'><Link to="/">Back to Home</Link></button>
+          </div>
         </div>
       )}
+      
     </div>
   );
 };
